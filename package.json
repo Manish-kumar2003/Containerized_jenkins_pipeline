@@ -1,0 +1,17 @@
+{
+  "name": "containerized_jenkins_pipeline",
+  "version": "1.0.0",
+  "description": "CI/CD pipeline application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
